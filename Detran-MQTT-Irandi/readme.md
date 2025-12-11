@@ -1,17 +1,17 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=22003690)
 
-# 🚗 Sistema DETRAN Distribuído (MQTT + Microsserviços)
+# Sistema DETRAN Distribuído (MQTT + Microsserviços)
 
 Este projeto implementa um sistema para o DENATRAN utilizando arquitetura de **Microsserviços** comunicando-se via protocolo **MQTT**. O sistema gerencia condutores, veículos, multas e consultas através de serviços independentes e desacoplados.
 
-## 📋 Funcionalidades
+## Funcionalidades
 * Cadastro de Condutores.
 * Emplacamento de Veículos e Cálculo de IPVA.
 * Transferência de Propriedade.
 * Lançamento de Multas (com verificação de dono).
 * Consultas (Top 5 infratores, multas por ano, etc.).
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 * **Linguagem:** Python 3.11+
 * **Comunicação:** Protocolo MQTT (Biblioteca `paho-mqtt`)
 * **Broker:** Eclipse Mosquitto (via Docker)
@@ -20,7 +20,7 @@ Este projeto implementa um sistema para o DENATRAN utilizando arquitetura de **M
 
 ---
 
-## 🚀 Guia de Instalação e Execução
+## Guia de Instalação e Execução
 
 Siga os passos abaixo na ordem exata para garantir o funcionamento do ambiente distribuído.
 
